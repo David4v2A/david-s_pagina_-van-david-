@@ -1,0 +1,103 @@
+:root {
+  --color1: rgb(255, 127, 0); /*achtergrond kleur*/
+  --color2: rgb(255, 127, 0); /*kleur van nav text en header text*/
+  --color3: rgb(255, 255, 255); /*nav achtergrond kleur*/
+  --color4: rgb(255, 255, 255); /*kleur van nav achtergrond van die <a>*/
+  --color6: orange;  /*kleur van de allinia text*/
+  --color7: black; /*kleur van de links*/
+  --color8: red; /*kleur van de links waneer hover*/
+  --color9: rgb(0, 0, 0); /*achtergrond kleur van nav waneer verandert*/
+}
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  background-attachment: fixed;
+  background-image: url(https://th.bing.com/th/id/R.34bb82aaa363f15578dd9f11922aa7c7?rik=X4sgYCbus4jvjA&pid=ImgRaw&r=0);
+  background-size: 100%;
+}
+header {
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+article {
+  color: var(--color6);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-weight: bold;
+
+}
+img {
+  position: relative;
+  margin-top: 30px
+}
+footer {
+  width: 100%;
+  border-top: 3px solid var(--color4);;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  color: var(--color7);
+  display: block;
+  text-decoration: none;
+
+
+}
+h1 {
+	font-size: 100px;
+  color: red;
+   }
+h2 {
+     text-align: center;
+     font-size: 30px;
+   }
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  padding-bottom: 40px
+}
+th, td {
+  background-color: white;
+}
+td {
+  font-size: 30px;
+  color: orange;
+}
+nav > footer > div > a{
+  text-decoration: none;
+  color: var(--color7);
+
+}
+#mail-link {
+  text-decoration: none;
+  color: var(--color7);
+  transition: color .5s;
+}
+#mail-link:hover {
+  color: var(--color8);
+}
+a:hover {
+  color:var(--color8);
+}
+footer > div > a {
+  transition: color .5s;
+  color: var(--color7);
+  text-decoration: none;
+}
+span {
+  background-color:black;
+
+}
+li, ul {
+  text-align: center;
+  color: red;
+  list-style-type: none;
+  padding-top:7px;
+  padding-left: 1em;
+font-weight: bolder;
+font-size: 90%;
+}
